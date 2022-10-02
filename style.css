@@ -1,0 +1,118 @@
+
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E2DCC8;
+}
+h1{
+    font-family: serif;
+    font-size: 50px;
+    background-color: #212628;
+    color: #FFD900;
+    padding: 10px 45px;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+.container{
+    width: 30rem;
+    height: 30rem;
+    background-color: #212628;
+    border-radius: 50%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 0;
+    width: 100%;
+    
+}
+button{
+    width: 100px;
+    height: 150px;
+    font-family: serif;
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+    background-color: #212628;
+    color: #FFD900;
+    border: 15px solid #00BD9C;
+    cursor: pointer;
+    padding: 5px;
+}
+button:hover{
+    background-color:#33383F;
+}
+
+#btn-1{
+    border: 15px solid #212628;
+    border-bottom: 15px solid #00BD9C;
+}
+#btn-2{
+    border-top: 15px solid #212628;
+    border-bottom: 15px solid #212628;
+    
+}
+#btn-3{
+    border-top: 15px solid #212628;
+    border-right: 15px solid #212628;
+    border-left: 15px solid #212628;
+}
+#btn-4{
+    border-top: 15px solid #212628;
+    border-left: 15px solid #212628;
+    border-bottom: 15px solid #212628;
+}
+#btn-5{
+    border: 15px solid #212628;
+    border-top: 15px solid #00BD9C;
+    border-bottom: 15px solid #00BD9C;
+}
+
+#btn-6{
+    border: 15px solid #212628;
+    border-left: 15px solid #00BD9C;
+}
+
+#btn-7{
+    border: 15px solid #212628;
+    border-top: 15px solid #00BD9C;
+}
+
+#btn-8{
+    border: 15px solid #212628;
+    border-left: 15px solid #00BD9C;
+    border-right: 15px solid #00BD9C;
+}
+#btn-9{
+    border: 15px solid #212628;
+    border-top: 15px solid #00BD9C;
+}
+
+
+
+
+.reset-btn-container{
+ 
+  position: absolute;
+ bottom: -9rem;
+}
+.reset-btn{
+    width: auto;
+    height: auto;
+   cursor: pointer;
+   border: 0;
+   font-size: 40px;
+   font-family: serif;
+   padding: 10px 30px;
+   border-radius: 10px;
+}
